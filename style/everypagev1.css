@@ -1,0 +1,83 @@
+	#headbar {
+		position: fixed;
+		height: 15vh;
+		text-align: center;
+		width: 100%;
+		top: 0;
+		background: #FFF;
+		
+	}
+	#headbar img {
+		height: 13vh;
+		margin-top: 1vh;
+		width: initial;
+	}
+	body {
+	    margin-top: 15vh;
+		background: #FFF;
+		text-align: center;
+		font-size: 18px;
+		font-family: sans-serif;
+	}
+	
+	h1,h2,h3,h4,h5,h6,p {
+		line-height: 1.45;
+	}
+	
+	blockquote {
+		margin: 0;
+		padding: 0;
+		padding-left: 1.5em;
+	}
+	
+	ul {padding: 0; margin: 0; ; list-style:disc;}
+	ol {padding: 0; margin: 0; list-style:decimal;}
+	ul li, ol li {
+		margin-left: 2em;
+		padding: 0.1em 0;
+		padding-left: 0.6em;
+	}
+	
+	img {
+	    width: 100%;
+	}
+	
+	#mainitems {
+		text-align: left;
+		padding: 0 20px;
+		padding-top: 1em;
+		overflow: hidden;
+	}
+	@media (min-width: 0) and (orientation: portrait) {
+		#headbar {
+			height: 15vh;
+		}
+		#headbar img {
+			height: 13vh;
+		}
+		body {
+			margin-top: 15vh;
+		}
+	}
+	@media (min-width: 0) and (orientation: landscape) {
+		#headbar {
+			height: 30vh;
+		}
+		#headbar img {
+			height: 24vh;
+			margin-top: 3vh;
+		}
+		body {
+		    margin-top: 30vh;
+		}
+	}
+	@media (min-width: 420px) and (orientation: landscape) {
+		#mainitems {
+			width: 420px;
+			margin: auto;
+		}
+	}
+	a {color:blue;}         /* Unvisited link  */
+    a:visited {color:blue;} /* Visited link    */
+    a:hover {color:blue;}   /* Mouse over link */
+    a:active {color:blue;}  /* Selected link   */

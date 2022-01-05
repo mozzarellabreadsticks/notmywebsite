@@ -3,122 +3,32 @@
 <head>
 <title>Not my website</title>
 <link rel="stylesheet" href="style/normalize.css">
+<link rel="stylesheet" href="style/everypagev1.css">
+<link rel="stylesheet" href="style/toaststyle.css">
 <div id="headbar">
-	<img src="ss/guitarcase.png" id="guitarcase">
+	<img title="BTC Receiving Address: bc1qkqpwd9fssgqdstyk909za23dpgm8t5qvq0ezjl" src="ss/guitarcase.png" id="guitarcase">
 </div>
-<style>
-	#headbar {
-		position: fixed;
-		height: 15vh;
-		text-align: center;
-		width: 100%;
-		top: 0;
-		background: #FFF;
-		border-bottom: 2px solid lightgrey;
-	}
-	#headbar img {
-		height: 13vh;
-		margin-top: 1vh;
-	}
-	body {
-	    margin-top: 15vh;
-		background: #FFF;
-		text-align: center;
-		font-size: 18px;
-		font-family: sans-serif;
-	}
-	
-	h1,h2,h3,h4,h5,h6,p {
-		line-height: 1.45;
-	}
-	
-	blockquote {
-		margin: 0;
-		padding: 0;
-		padding-left: 1.5em;
-	}
-	
-	ul {padding: 0; margin: 0; ; list-style:disc;}
-	ol {padding: 0; margin: 0; list-style:decimal;}
-	ul li, ol li {
-		margin-left: 2em;
-		padding: 0.1em 0;
-		padding-left: 0.6em;
-	}
-	
-	#mainitems {
-		text-align: left;
-		padding: 0 20px;
-		padding-top: 1em;
-	}
-	@media (min-width: 0) and (orientation: portrait) {
-		#headbar {
-			height: 15vh;
-		}
-		#headbar img {
-			height: 13vh;
-		}
-		body {
-			margin-top: 15vh;
-		}
-	}
-	@media (min-width: 0) and (orientation: landscape) {
-		#headbar {
-			height: 30vh;
-		}
-		#headbar img {
-			height: 24vh;
-			margin-top: 3vh;
-		}
-		body {
-		    margin-top: 30vh;
-		}
-	}
-	@media (min-width: 420px) and (orientation: landscape) {
-		#mainitems {
-			width: 420px;
-			margin: auto;
-		}
-	}
-</style>
 <body>
+<script type="text/markdown" id="markedsource">
+
+![moon](ss/moon.jpg)
+
+</script>
 <div id="mainitems">
-    <h1 id="marked---markdown-parser">Marked - Markdown Parser</h1>
-    <p><a href="https://github.com/markedjs/marked/">Marked</a> lets you convert <a href="http://daringfireball.net/projects/markdown/">Markdown</a> into HTML.  Markdown is a simple text format whose goal is to be very easy to read and write, even when not converted to HTML.  This demo page will let you type anything you like and see how it gets converted.  Live.  No more waiting around.</p>
-    <h2 id="how-to-use-the-demo">How To Use The Demo</h2>
-    <ol>
-    <li>Type in stuff on the left.</li>
-    <li>See the live updates on the right.</li>
-    </ol>
-    <p>That&#39;s it.  Pretty simple.  There&#39;s also a drop-down option in the upper right to switch between various views:</p>
-    <ul>
-    <li><strong>Preview:</strong>  A live display of the generated HTML as it would render in a browser.</li>
-    <li><strong>HTML Source:</strong>  The generated HTML before your browser makes it pretty.</li>
-    <li><strong>Lexer Data:</strong>  What <a href="https://github.com/markedjs/marked/">marked</a> uses internally, in case you like gory stuff like this.</li>
-    <li><strong>Quick Reference:</strong>  A brief run-down of how to format things using markdown.</li>
-    </ul>
-    <h2 id="why-markdown">Why Markdown?</h2>
-    <p>It&#39;s easy.  It&#39;s not overly bloated, unlike HTML.  Also, as the creator of <a href="http://daringfireball.net/projects/markdown/">markdown</a> says,</p>
-    <blockquote>
-    <p>The overriding design goal for Markdown&#39;s
-    formatting syntax is to make it as readable
-    as possible. The idea is that a
-    Markdown-formatted document should be
-    publishable as-is, as plain text, without
-    looking like it&#39;s been marked up with tags
-    or formatting instructions.</p>
-    </blockquote>
-    <p>Ready to start writing?  Either start changing stuff on the left or
-    <a href="/demo/?text=">clear everything</a> with a simple click.</p>
-    
+    <br>
+    <br>
+    <p style="text-align: center">
+        <a href="pages.html">Pages</a>
+        <span style="padding: 0 5px;"> </span>
+        <a href="linkingpages.html">Linking pages</a>
+    </p>
+    <br>
+    <br>
 </div>
 <script type="text/javascript" src="javascript/jquery.min.js"></script>
 <script type="text/javascript" src="javascript/flowtype.js"></script>
 <script type="text/javascript" src="javascript/marked.min.js"></script>
-<script type="text/javascript">
-	$('#mainitems').flowtype({
-		fontRatio: 22
-	});
-</script>
+<script type="text/javascript" src="javascript/siiimple-toast.min.js"></script>
+<script type="text/javascript" src="javascript/everypagev1.js"></script>
 </body>
 </html>
